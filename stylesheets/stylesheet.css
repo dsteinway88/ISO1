@@ -521,19 +521,15 @@ a.button {
   height: 58px;
   padding-top: 22px;
   padding-left: 68px;
+  padding-right: 5px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 23px;
-  line-height: 1.2;
+  font-size: 17px;
   color: #fff;
+  display: block;
 }
 a.button small {
   display: block;
   font-size: 13px;
-}
-a.button bold {
-  display: block;
-  font-size: 20px;
-  color: #ffff33;
 }
 header a.button {
   position: absolute;

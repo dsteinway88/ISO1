@@ -1,0 +1,280 @@
+
+body{color:#333; font-family:Arial,Helvetica, Arial, sans-serif; margin:0;}
+img{border:none;}
+a{text-decoration:none;}
+
+   /* FYI
+   -the less selectors you have, the faster your CSS is
+   http://stackoverflow.com/questions/5797014/why-do-browsers-match-css-selectors-from-right-to-left/5813672#5813672
+   */
+   .header{overflow:hidden; height:97px;  background:url(/FCWSite/Img/newhp/bg_head.gif) no-repeat 0 97px;}
+   .header .logo{float:left; margin:20px 30px 15px 0;}
+   .header .nav{float:right;}
+   .header .nav ul{overflow:hidden; margin:0; padding:0; list-style:none;}
+   .header .nav ul li{float:left; margin-left:20px;}
+   .header .nav ul li:first-child{margin-left:0;}
+   .header .nav ul li .navitem a{text-decoration:none;  color:#414141; font-size:21px; padding:40px 0 10px; display:block;}
+   .header .nav ul li .navitem a:hover{color:#2b9fba; border-bottom:1px solid #2b9fba;}
+   .header .nav ul li.search{margin-left:10px;}
+   .header .nav ul li.search .navitem a{background:url(/FCWSite/Img/newhp/search.png) no-repeat 50% 39px; width:18px; height:18px; display:block; padding:40px 15px 39px;}
+   .header .nav ul li.search .navitem a:hover{border:none;}
+   .header .nav ul li .menu{position:absolute; top:97px; z-index:110; display:none;width:100%; background:url(/FCWSite/Img/newhp/shadow.png) no-repeat 50% 0 #fff; left:0; height:167px; display:none;}
+   .header .nav ul li .menu .nav-container{padding:20px 60px; overflow:hidden;}
+   .header .nav ul li .menu a{color:#2b9fba;}
+   .header .nav ul li .menu a:hover{color:#4b4b4b;}
+   .header .nav ul li.professionals .menu .nav-container .alpha{width:320px; background:url(/FCWSite/Img/newhp/gray_divide.png) no-repeat 100% 0; float:left;}
+   .header .nav ul li.professionals .menu .nav-container .alpha ul{overflow:hidden; width:275px;}
+   .header .nav ul li.professionals .menu .nav-container .alpha ul li{margin:0 0 20px 18px; width:14px;}
+   .header .nav ul li.professionals .menu .nav-container .alpha ul li.wide{margin:0 0 0 22px;}
+   .header .nav ul li.professionals .menu .nav-container .alpha ul li.first{margin-left:0; clear:left;}
+   .header .nav ul li.professionals .menu .nav-container .alpha ul li a{ font-size:21px; text-decoration:none;}
+   .header .nav ul li.professionals .menu .nav-container .forms{float:left; width:525px; margin-left:25px;}
+   .header .nav ul li.professionals .menu .nav-container .forms .left{float:left;}
+   .header .nav ul li.professionals .menu .nav-container .forms .right{float:right;}
+   .header .nav ul li.professionals .menu .nav-container .forms ul{overflow:hidden;}
+   .header .nav ul li.professionals .menu .nav-container .forms ul li{margin-left:0; position:relative;}
+   .header .nav ul li.professionals .menu .nav-container .forms input.text{width:230px; padding:9px; height:14px; font-size:14px; color:#414141; border:1px solid #d1d1d1; margin:0 0 10px;}
+   .header .nav ul li.professionals .menu .nav-container .forms li.select select{width:250px; font-size:14px; padding:6px; border:1px solid #d1d1d1; position:relative;}
+   .header .nav ul li.professionals .menu .nav-container .forms li.select .overlay{position:absolute; top:0; left:0; width:228px; padding:0 9px; height:33px; font-size:14px; color:#414141; border:1px solid #d1d1d1; margin:0 0 10px; line-height:33px; background:url(/FCWSite/Img/newhp/arrow_down.png) no-repeat 96% 50% #fff;}
+   .header .nav ul li.professionals .menu .nav-container .forms ul.buttons li.advanced a{font-weight:bold; font-size:14px; text-decoration:none; display:block; margin-top:16px;}
+   .header .nav ul li.professionals .menu .nav-container .forms ul.buttons input.submit{width:248px; background-color:#2b9fba; color:#fff; border:none; font-weight:bold; font-size:14px; text-transform:uppercase; height:33px; cursor:pointer;}
+   .header .nav ul li.professionals .menu .nav-container .forms ul.buttons input.submit:hover{background-color:#414141;}
+   .header .nav ul li .menu .close{width:100%; background:url(/FCWSite/Img/newhp/shadow2.png) no-repeat 50% 0; clear:both; position:absolute; top:165px;}
+   .header .nav ul li .menu .close .button{width:259px; margin:0 auto;}
+   .header .nav ul li .menu .close .button a{background:url(/FCWSite/Img/newhp/close.png) no-repeat 0 0; width:259px; height:42px; display:block;}
+   .header .nav ul li .menu .close .button a:hover{background:url(/FCWSite/Img/newhp/close_on.png) no-repeat 0 0;}
+   .header .nav ul li.services .menu{height:295px;}
+   .header .nav ul li.services .menu .heading{ font-size:16px; margin:0 0 10px;}
+   .header .nav ul li.services .menu .nav-container{padding-right:20px;}
+   .header .nav ul li.services .menu .search{float:left; background:url(/FCWSite/Img/newhp/gray_divide.png) no-repeat 100% 0; width:160px; margin:15px 0 0; height:121px;}
+   .header .nav ul li.services .menu .search a{ font-size:16px; text-decoration:none; display:block; margin:43px 0 0;}
+   .header .nav ul li.services .menu .services{float:left; background:url(/FCWSite/Img/newhp/gray_divide.png) no-repeat 100% 15px; padding-right:40px;}
+   .header .nav ul li.services .menu .services ul{float:left; margin-left:30px; width:250px;}
+   .header .nav ul li.services .menu .services ul.service-right{width:170px; margin-left:35px;}
+   .header .nav ul li.services .menu .services ul li{float:none; clear:both; margin:0 0 7px;}
+   .header .nav ul li.services .menu .services ul li a{font-size:14px; text-decoration:none; display:block; line-height:16px;}
+   .header .nav ul li.services .menu .services .heading{margin-left: 30px;}
+   .header .nav ul li.services .menu .featured{float:left; width:190px; margin-left:20px;}   
+   .header .nav ul li.services .menu .featured ul li{float:none; margin:0 0 10px;}
+   .header .nav ul li.services .menu .featured ul li a{font-size:14px; text-decoration:none; display:block; line-height:16px;}
+   .header .nav ul li.services .menu .close{top:295px;}
+   .header .nav ul li.resources .menu{height:295px;}
+   .header .nav ul li.aboutus .menu{height:205px;}
+   .header .nav ul li.aboutus .menu .heading{ font-size:16px; margin:0 0 10px;}
+   .header .nav ul li.aboutus .menu .nav-container{padding-right:20px;}
+   .header .nav ul li.aboutus .menu .search{float:left; background:url(/FCWSite/Img/newhp/gray_divide.png) no-repeat 100% 0; width:160px; margin:15px 0 0; height:121px;}
+   .header .nav ul li.aboutus .menu .search a{ font-size:16px; text-decoration:none; display:block; margin:43px 0 0;}
+   .header .nav ul li.aboutus .menu .aboutus{float:left; background:url(/FCWSite/Img/newhp/gray_divide.png) no-repeat 100% 15px; padding-right:40px;}
+   .header .nav ul li.aboutus .menu .aboutus ul{float:left; margin-left:30px; width:250px;}
+   .header .nav ul li.aboutus .menu .aboutus ul.aboutus-right{width:170px; margin-left:35px;}
+   .header .nav ul li.aboutus .menu .aboutus ul li{float:none; clear:both; margin:0 0 7px;}
+   .header .nav ul li.aboutus .menu .aboutus ul li a{font-size:14px; text-decoration:none; display:block; line-height:16px;}
+   .header .nav ul li.aboutus .menu .aboutus .heading{margin-left: 30px;}
+   .header .nav ul li.aboutus .menu .close{top:205px;}
+
+   .header .nav ul li.resources .menu .links{margin-top:43px;}
+   .header .nav ul li.resources .menu .links ul li{margin-left:0; padding-top:2px; padding-left:30px; background:url(/FCWSite/Img/newhp/gray_divide.png) no-repeat 0 0;}
+   .header .nav ul li.resources .menu .links ul li a{ font-size:24px; display:block; padding-left:25px; height:30px; line-height:30px;}
+   .header .nav ul li.resources .menu .links ul li:first-child{padding-left:0; background:none;}
+   .header .nav ul li.resources .menu .links ul li:first-child a{padding-left:0;}
+  
+   .header .nav ul li.resources .menu .featured{margin:50px 0 0;}   
+   .header .nav ul li.resources .menu .featured .heading{float: left; font-size:24px; height:30px; line-height:30px; color:#2b9fba; background:url(/FCWSite/Img/newhp/gray_divide.png) no-repeat right 0; padding-right:30px;}
+   .header .nav ul li.resources .menu .featured ul { padding-left:25px; max-width:660px;}
+   .header .nav ul li.resources .menu .featured ul li{float:left; margin:0 0 10px; width:198px; margin-left:22px;}
+   .header .nav ul li.resources .menu .featured ul li:first-child,
+   .header .nav ul li.resources .menu .featured ul li.first{margin-left:0; clear:left;}
+   .header .nav ul li.resources .menu .featured ul li a{font-size:14px; text-decoration:none; display:block; line-height:16px;}
+   .header .nav ul li.resources .menu .close{top:295px;}
+   .header .nav ul li.locations .menu{height:210px;}
+   .header .nav ul li.locations .menu .nav-container{padding-right:20px;}
+   .header .nav ul li.locations .menu .close{top:210px;}
+   .header .nav ul li.locations .menu .landing-link{float: left;background: url(/FCWSite/Img/newhp/gray_divide.png) no-repeat 100% 0;width: 160px;margin: 15px 0 0;height: 121px;}
+   .header .nav ul li.locations .menu .landing-link a{ font-size:16px; text-decoration:none; display:block; margin:43px 0 0;}
+   .header .nav ul li.locations .menu .offices{ background:url(/FCWSite/Img/newhp/gray_divide.png) no-repeat 100% 15px; padding-right:60px; float:left; overflow:hidden;}
+   .header .nav ul li.locations .menu .offices ul{float:left; margin-left:50px;}
+   .header .nav ul li.locations .menu .offices ul li{float:none; margin:0;}
+   .header .nav ul li.locations .menu .offices ul li a{font-size:12px; text-decoration:none;}
+   .header .nav ul li.locations .menu .words{margin-left:15px; width:290px; float:left; font-size:13px;}
+   .header .nav ul li.locations .menu .words p{margin-top:0;}
+	.header .nav ul li.locations .menu .words .name
+	{
+		font-weight: bold;
+	}
+   .header .nav ul li.search .navitem{width:50px;}
+   .header .nav ul li.search.active .navitem a{background:url(/FCWSite/Img/newhp/search_close.png) no-repeat 50% 38px #2b9fba; border:1px solid #368fa4; border-bottom:none;}
+
+   .header .nav ul li.search.active .menu{display:block; right:30px; background:url(/FCWSite/Img/newhp/searchbox.png) no-repeat 0 0; width:379px; height:65px; padding:20px 0 0 35px; left:auto; z-index:20;}
+   .header .nav ul li.search.active .menu input{border:none; background:transparent;}
+   .header .nav ul li.search.active .menu input.text{width:340px; font-size:24px; color:#fff; margin:0 5px 0 0; float:left;}
+   .header .nav ul li.search.active .menu input.submit{background:url(/FCWSite/Img/newhp/toggle_right.png) no-repeat 0 0; width:16px; height:27px; margin-top:3px; cursor:pointer;}
+
+   .container .shadowLeft{background:url(/FCWSite/Img/newhp/shadow_left.png) no-repeat 0 0; width:20px; height:753px; display:block; position:absolute; top:0; left:0; z-index:1000}
+   .container .shadowRight{background:url(/FCWSite/Img/newhp/shadow_right.png) no-repeat 0 0; width:20px; height:753px; display:block; position:absolute; top:0; right:0; z-index:1000;}
+   .container .btmCenter{position:absolute; left:0; bottom:0; background:url(/FCWSite/Img/newhp/btm_center.png) repeat-x 0 0; width:100%; height:20px; z-index:0;}
+   .container .btmLeft{position:absolute; left:0; bottom:0; background:url(/FCWSite/Img/newhp/btm_left.png) no-repeat 0 0; width:311px; height:20px;z-index:10;}
+   .container .btmRight{position:absolute; right:0; bottom:0; background:url(/FCWSite/Img/newhp/btm_right.png) no-repeat 0 0; width:311px; height:20px; z-index:10;}
+   .homeContent{overflow:hidden; position:relative; height:725px;}
+   .homeContent .carouselitem{position: relative;}
+   .carouselitem > .image{width:100%; height:467px; /*background:url(/FCWSite/Img/newhp/main_wide.jpg) no-repeat 50% 0;*/ position:relative;}
+   .carouselitem > .image img{position:absolute; left:50%; margin-left:-640px;}
+   .home .rightside{position:absolute; right:0; top:0; padding:0 40px 0 120px; width:273px; height:725px; background:url(/FCWSite/Img/newhp/angle_blue.png) no-repeat 100% 0;}
+   .homeContent .toggle{position:absolute; top:245px; right:40px; z-index:100;}
+   .homeContent .toggle ul{overflow:hidden; list-style:none;}
+   .homeContent .toggle ul li{float:left; margin-left:20px;}
+   .homeContent .toggle ul li#pager{margin-left:0;}
+   .homeContent .toggle ul li a{width:29px; height:29px; display:block; background:url(/FCWSite/Img/newhp/toggle_off.png) no-repeat 50% 50%;}
+   .homeContent .toggle ul li.item a { float: left; margin-left: 20px; }
+   .home .container .homeContent .toggle ul li.item a span { display:none;}
+   .homeContent .toggle ul li.item a.selected{width:29px; height:29px; display:block; background:url(/FCWSite/Img/newhp/toggle_on.png) no-repeat 50% 50%;}
+   .homeContent .toggle ul li.left a{background:url(/FCWSite/Img/newhp/toggle_left.png) no-repeat 0 0; width:17px; height:27px;}
+   .homeContent .toggle ul li.right a{background:url(/FCWSite/Img/newhp/toggle_right.png) no-repeat 0 0; width:17px; height:27px;}
+   .homeContent .rightside .message{text-align:right; color:#fff; clear:both; height:415px; overflow:hidden; margin-top:335px;}
+   .homeContent .rightside .message .title{font-size:40px; width:258px; position:relative; right:-15px;}
+   .homeContent .rightside .message .content{font-size:22px; margin:35px 0 0;}
+   .homeContent .infographic{position:relative; padding-left:40px; max-width:765px; min-width:490px; height:258px; margin-right:439px;}
+   .homeContent .infographic .info-container{overflow:hidden; position:relative; height:258px; display:table-cell; vertical-align:middle; *margin-top:50px;}
+   .homeContent .infographic .image{background:transparent; height:auto; width:auto;}
+   .homeContent .infographic .image img{position:relative; float:left; margin-right:25px; max-width:145px; height:auto;}
+
+    .homeContent .infographic .info-container .text a {
+        color: #2b9fba;
+    }
+    .homeContent .infographic .info-container .text a:hover {
+        color: #4b4b4b;
+    }
+    .homeContent .infographic .info-container a:hover {
+        color: #4b4b4b;
+    }
+
+
+   .infographic .right{width:85%; float:left;}
+   .infographic .image-added .left .image img {	max-width: 24%;	}
+   .infographic .image-added .right{width:65%;}
+   .infographic .title{font-size:21px;}
+   .infographic .title a{color:#00395c;}
+   .infographic .text{font-size:1em; color:#848484; float:left; margin:10px 0 0; line-height:22px;}
+   .infographic .arrow{position:absolute; right:0; top:36%;}
+   .infographic .arrow a{background:url(/FCWSite/Img/newhp/arrow_lg.png) no-repeat 0 0; width:30px; height:52px; display:block;}
+
+
+   .footer{position:relative; z-index:100;}
+   .footer ul{margin:0; padding:0; list-style:none;}
+   .footer ul li{float:left; margin-right:10px; color:#8b8b8b;}
+   .footer ul li a{color:#8b8b8b; text-decoration:none; font-weight:bold;}
+   .footer .topNav{float:left; font-size:14px;}
+   .footer .social{float:right;}
+   .footer .social ul li.connetedlbl{margin-top:3px;color:#8b8b8b;font-weight:bold;}
+   .footer .social ul li{float:left; margin-left:10px;}
+   .footer .social ul li.linked a{background:url(/FCWSite/Img/newhp/linkedin.png) no-repeat 0 0; width:16px; height:16px; display:block;}
+   .footer .social ul li.twitter a{background:url(/FCWSite/Img/newhp/twitter.png) no-repeat 0 0; width:17px; height:16px; display:block;}
+   .footer .social ul li.facebook a{background:url(/FCWSite/Img/newhp/facebook.png) no-repeat 0 0; width:9px; height:16px; display:block;}
+   .footer .social ul li.youtube a{background:url(/FCWSite/Img/newhp/youtube.png) no-repeat 0 0; width:13px; height:16px; display:block;}
+   .footer ul li.expand-client-tools a{width:96px; display:block;}
+   .footer .bottomNav{clear:both; padding:15px 0 0; overflow:hidden;}
+   .footer .bottomNav ul{float:left;}
+   .footer .disclaimer{float:left; margin-left:20px; font-size:11px; color:#707070;}
+   .footer span.expand-collapse{padding-right:4px; width:8px; display:inline-block;}
+
+   /* relative position allows you to stick that client tools thing right above the links */
+   .footer{ position:relative; }
+
+  .teal > .rightside{ background:url(/FCWSite/Img/newhp/angle_lightblue.png); }
+  .teal > .infographic > .arrow a{background:url(/FCWSite/Img/newhp/arrow_lg_blue.png) no-repeat 0 0!important;}
+  .teal .infographic .title a{color:#2b9fba;}
+
+  .orange > .rightside{ background:url(/FCWSite/Img/newhp/angle_orange.png); }
+  .orange > .infographic > .arrow a{background:url(/FCWSite/Img/newhp/arrow_lg_orange.png) no-repeat 0 0!important;}
+  .orange .infographic .title a{color:#eb602b;}
+
+
+  .popup-client-tools{
+    display:none;
+    position:absolute;
+    top:-9px;
+    left:42px;
+    background:#fff;
+    padding-bottom:2px;
+  }
+  .popup-client-tools li a{width:auto!important;}
+  .popup-client-tools li{
+    float:none !important;
+    margin-bottom:.2em;
+  }
+  .popup-client-tools li a:hover{
+    text-decoration:underline;
+  }
+  .popup{
+    display:inherit;
+  }
+
+  table.list tr td.date{width:134px;}
+
+body.areas_detail div.header,
+body.worldwide_detail div.header{background:none; margin-bottom:0; padding-bottom:0;}
+body.areas_detail div.middle .pagetitle,
+body.worldwide_detail div.middle .pagetitle{margin:0 -30px; height:167px; background:url('../images/bg_head.gif') no-repeat 0 0; border:none;}
+body.areas_detail div.middle .pagetitle table,
+body.worldwide_detail div.middle .pagetitle table{height:150px;}
+body.areas_detail div.middle .pagetitle td.title_left,
+body.worldwide_detail div.middle .pagetitle td.title_left{background:none; border:none; padding:24px 30px 11px;}
+body.areas_detail div.middle .pagetitle td.title_left h1,
+body.worldwide_detail div.middle .pagetitle td.title_left h1{color:#fff;}
+
+
+body.home .header .logo{float:left; margin:20px 40px 15px;}
+body.home .header .nav{margin-right:25px;}
+body.home .header .nav ul li.search.active .menu{right:44px;}
+body.home .header .nav ul li .navitem a{padding:35px 0 10px;}
+body.home .header .nav ul li.search .navitem a{padding:35px 15px 47px;margin-top:-3px;}
+
+
+body.home .header .nav ul li.resources .menu .featured ul{max-width:100%;}
+body.home .shadow{display:block; width:100%; height:20px; background:url(/FCWSite/Img/newhp/shadow.png) no-repeat 50% 0; position:absolute; top:97px; z-index:10;}
+body.home .container{max-width:1240px; min-width:950px; margin:0 auto; position:relative; padding:0 20px 20px; overflow:hidden;}
+body.home .footer{max-width:1200px; min-width:910px; margin:0 auto; clear:both; padding:10px 40px 30px; font-size:12px;}
+
+body.home .footer .popup-client-tools{left:52px; top:-30px;}
+
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+   .header .nav ul li.search.active .menu input.text{width:320px;}
+    .header .nav ul li.professionals .menu .nav-container .alpha ul li{margin: 0 0 20px 16px;}
+    .header .nav ul li.professionals .menu .nav-container .alpha ul li.wide{margin-left:20px;}
+    .header .nav ul li.professionals .menu .nav-container .alpha ul li.wide.first{margin-left:0;}
+}
+
+
+
+@media screen and (max-width : 1060px) {
+       .header .nav ul li.search.active .menu input.text{width:320px;}
+    .header .nav ul li.professionals .menu .nav-container .alpha ul li{margin: 0 0 20px 16px;}
+    .header .nav ul li.professionals .menu .nav-container .alpha ul li.wide{margin-left:20px;}
+    .header .nav ul li.professionals .menu .nav-container .alpha ul li.wide.first{margin-left:0;}
+   body.home .header .nav ul li img {height:18px;}
+}
+
+body.ie8 .header .nav ul li a img
+{
+    height:18px;
+}
+@-moz-document url-prefix() {
+    @media screen and (max-width : 1060px) {
+        body.home .header .nav ul li.professionals img {
+            width: 102px;
+        }
+    body.home .header .nav ul li.services img {
+        width: 66px;
+    }
+    body.home .header .nav ul li.careers img {
+        width: 61px;
+    }
+
+    body.home .header .nav ul li.locations img {
+        width: 75px;
+    }
+}
+}
+

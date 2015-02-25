@@ -1,0 +1,17 @@
+/* hidden elements */
+.hidden { display: none; }
+
+/* FOR OFFICE DETAIL PAGE - DO NOT REMOVE */
+body.worldwide_detail .rightside .relatedcontent ul {padding:0px 0px 16px;}
+body.worldwide_detail .rightside .relatedcontent li {padding:0px;}
+body.worldwide_detail .rightside .relatedcontent a {color:#808080;display:block;background:url(../img/bullet_blue.gif) no-repeat 0px 5px;padding:0px 0px 0px 15px;}
+body.worldwide_detail .rightside .relatedcontent a:hover {color:#333;display:block;background:url(../img/bullet_blue_on.gif) no-repeat 0px 5px;padding:0px 0px 0px 15px;}
+body.worldwide_detail .rightside .relatedcontent ul ul {padding:0px 0px 0px 15px;}
+body.worldwide_detail .rightside .relatedcontent ul ul a {color:#808080;display:block;background:url(../img/bullet_blue2.gif) no-repeat 6px left;padding:0px 0px 0px 15px;}
+body.worldwide_detail .rightside .relatedcontent ul ul a:hover {color:#333;display:block;background:url(../img/bullet_blue2_on.gif) no-repeat 6px left;padding:0px 0px 0px 15px;}
+/* FOR OFFICE DETAIL PAGE - DO NOT REMOVE */
+
+.registrationExport
+{
+	padding: 20px;
+}

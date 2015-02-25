@@ -1,0 +1,424 @@
+ * {background-color:transparent !important;background-image:none !important;}
+/* General */
+html, body {text-align:left;height:auto;}
+body{font:normal 16px/20px Arial, Helvetica, sans-serif; font:normal 12px/16px Arial, Helvetica, sans-serif\0/;}
+a, a:visited{
+    color:#333;
+}
+
+.container {padding:0;width:auto;position:static;margin:0; box-shadow:none;}
+
+.maincontent {padding-bottom:0;}
+
+h1 {font:bold 21px/24px arial, sans-serif; font:bold 17px/20px arial, sans-serif\0/;}
+h2 {font:bold 15px/19px arial, sans-serif; font:bold 11px/15px arial, sans-serif\0/;}
+h3 {font:bold 16px/20px arial, sans-serif; font:bold 12px/16px arial, sans-serif\0/;}
+
+/* Header */
+.header {padding:0;border-bottom:10px solid #60c3da; height:105px; }
+.header .logo {float:none;padding:0;}
+.header .logo img {margin-bottom:30px;}
+
+.header .socialnetwork {display:none;}
+
+.header .mainnav {display:none;}
+.header .site_search {display:none;}
+.header .mainnav div {float:none;}
+
+.flyout {display:none;}
+
+/* Footer */
+.footer .disclaimer{font: normal 15px Arial, Helvetica, sans-serif; font: normal 11px Arial, Helvetica, sans-serif\0/;}
+.footer .topNav,
+.footer .social,
+.footer .bottomNav ul{display:none;}
+.footer_wrapper {display:none;}
+.footer .nav {display:none;}
+
+
+.middle{padding:0;}
+
+/* Page Title */
+.pagetitle {margin-bottom:20px!important; height:auto!important; border-bottom:10px solid #F5F5F5!important;}
+.pagetitle table{height:75px!important;}
+.pagetitle td.title_left {border-right-style:none; border-left-style:none; text-align:left; margin: 0px; padding:0px; }
+.pagetitle td.title_right {padding-left:5px; padding-right:5px; background-color:#f5f5f5;  }
+.pagetitle h1 {letter-spacing:normal; font: bold 28px/25px Arial, Helvetica, sans-serif; font: bold 24px/21px Arial, Helvetica, sans-serif\0/; color:#333!important;}
+.pagetitle .subheading {color:#333;}
+
+body.pagetitle_search .search .fields {display:none;}
+body.pagetitle_search .pagetitle td.title_left {width:100%;}
+body.pagetitle_search .pagetitle td.title_right {padding:0;}
+
+/* Leftside */
+.leftside {width:16%; width:133px\0/;float:left;overflow:visible;word-wrap:break-word;}
+.leftside .wrapper {padding:0 27px 0 0;}
+
+.leftside .contacts .email,
+.leftside .contacts .linkedin,
+.leftside .contacts .vcard {display:none;}
+
+.leftside .subnav,
+.leftside .subnavLang {display:none;}
+
+.leftside .relatedservices a.active{font-size:16px; font-size:12px\0/;}
+.leftside .contacts h3{font: bold 15px/19px Arial, Helvetica, sans-serif; font: bold 11px/15px Arial, Helvetica, sans-serif\0/;}
+
+
+/* Rightside */
+.rightside {width:31%; width:175px\0/;float:right;}
+.rightside .wrapper {padding:0;border-bottom:1px solid #e0e0df;}
+.rightside .rightside{width:100%;}
+
+.rightside h3 {padding:7px 0; font: normal 17px/19px Arial, Helvetica, sans-serif; font: normal 13px/15px Arial, Helvetica, sans-serif\0/;}
+.rightside .content {padding:13px 0 0;}
+.rightside .more {display:none;}
+.rightside .pdf {display:none;}
+
+.rightside .feature .image img {max-width:50px;}
+.rightside .feature .link a {padding:0;}
+*:first-child+HTML .worldwide_detail .rightside .feature .link a {display:inline-block;margin-right:0; }
+.rightside .feature .link a:hover {padding:0;}
+
+.rightside .relatedcontent a:hover {padding:0;}
+.rightside .relatedcontent a {padding:0;}
+.rightside .relatedcontent a:hover {padding:0;}
+.rightside .relatedcontent .active {padding:0;}
+
+.rightside .relatedareas a {padding:0;}
+.rightside .relatedareas a:hover {padding:0;}
+.rightside .relatedareas ul ul a {padding:0;}
+.rightside .relatedareas ul ul a:hover {padding:0;}
+
+.rightside .relatedlawyers a {padding:0;}
+.rightside .relatedlawyers a:hover {padding:0;}
+
+.rightside .relatedoffices a {padding:0;}
+.rightside .relatedoffices a:hover {padding:0;}
+
+.rightside .hottopic img{max-width: 100%;width:140px\0/;}
+
+/* Mainbody */
+.mainbody {width:51%; width:auto\0/;margin:0;display:table;.display:inline-block;}
+* html .mainbody {width:auto;}
+body.lawyers_detail .mainbody,
+body.detail .mainbody {margin-right:195px;margin-left:123px;}
+.mainbody .wrapper {padding:0 20px 0 0;}
+
+.mainbody .wrapper .heading {font: normal 22px/25px Arial, Helvetica, sans-serif; font: normal 18px/21px Arial, Helvetica, sans-serif\0/;}
+
+.mainbody .pdf {display:none;}
+
+.mainbody .searchresults {padding:0 0 19px;}
+.mainbody .searchresults .pagination {display:none;}
+
+.mainbody .search_listing {padding:0 0 19px;}
+.mainbody .search_listing .pagination {display:none;}
+
+.pagination {display:none;}
+.mainbody .sort {display:none;}
+
+table.list {width:auto;}
+table.list th {padding-left:0;}
+table.list th a {padding:0;}
+table.list th a.active {padding:0;}
+table.list td {padding:8px 18px 8px 0;}
+table.list td.more {display:none;}
+table.list .specialinthenewstitle {width:auto;}
+table.list .specialinthenewssource {width:auto;}
+
+.casestudies_listing {padding:0;}
+.casestudies_listing table.list .link a {padding:0;}
+.casestudies_listing table.list .link a:hover {padding:0;}
+
+/* General Page */
+body.general_detail .mainbody {width:auto;}
+* html body.general_detail .mainbody {width:auto;}
+body.general_detail .mainbody .wrapper {padding:0;}
+
+/* Sitemap */
+body.sitemap .mainbody {width:auto;}
+
+.sitemap_listing table.list td {padding:8px 18px 8px 0;}
+.sitemap_listing table.list td.col1 {padding:8px 18px 8px 0;}
+.sitemap_listing table.list td.col2 {padding:8px 18px 8px 0;}
+.sitemap_listing table.list ul a {padding:0;}
+.sitemap_listing table.list ul a:hover {padding:0;}
+.sitemap_listing table.list ul ul a {padding:0;}
+.sitemap_listing table.list ul ul a:hover {padding:0;}
+
+/* Site Search Results */
+body.search_listing .mainbody {width:auto;}
+
+.search_listing table.list {width:100%;}
+.search_listing table.list td {padding:8px 0;}
+.search_listing table.list td.bottom_pagination {display:none;}
+
+/* Search */
+.search .fields,
+.search .bttn {display:none;}
+
+/* Sign Up Form */
+.form_disclaimer {padding:10px 0;}
+
+.form .required {display:none;}
+.form .fields {display:none;}
+
+/* Bio Pop Up */
+.biopopup {display:none;}
+
+/* News */
+body.news_landing .mainbody {width:auto;padding-top:0;}
+* html body.news_landing .mainbody {width:auto;}
+body.news_landing .mainbody .wrapper {padding:0 0 22px;}
+
+body.news_landing .mainbody div.inthenews_listing iframe {width:500px !important;}
+body.news_landing .mainbody div.inthenews_listing iframe table {width:400px !important;}
+body.news_landing .mainbody div.inthenews_listing iframe table td {width:auto !important;}
+body.news_landing .mainbody div.inthenews_listing iframe .title {width:225px !important;}
+body.news_landing .mainbody div.inthenews_listing iframe .source {width:100px !important;}
+body.news_landing .mainbody div.inthenews_listing iframe .date {width:75px !important;}
+
+body.news_landing .newsreleases_listing table.list td.col1 {width:375px;}
+body.news_landing .newsreleases_listing table.list td.col2 {width:125px;}
+
+body.news_landing .inthenews_listing table.list th.specialinthenewstitle {width:375px;}
+body.news_landing .inthenews_listing table.list th.specialinthenewssource {width:125px;}
+
+body.news_listing .mainbody {width:auto;}
+
+/* Pubs */
+body.pubs_landing .mainbody {width:auto;}
+* html body.pubs_landing .mainbody {width:auto;}
+body.pubs_landing .mainbody .wrapper table {width:auto;}
+body.pubs_landing .mainbody .wrapper .link a {padding:0;}
+body.pubs_landing .mainbody .wrapper .link a:hover {padding:0;}
+
+body.pubs_landing th .heading a.more {display:none;}
+
+body.pubs_landing table.listing_top {width:auto;}
+body.pubs_landing table.listing_top th {padding:8px 18px 8px 0;}
+
+body.pubs_landing table.listing_top td {border:0px;font:normal 12px/15px Arial, Helvetica, sans-serif;padding:8px 18px 0 0;}
+body.pubs_landing table.listing_top td.listing_top_left div.pubs_listing {width:auto;}
+body.pubs_landing table.listing_top td.listing_top_right div.pubs_listing {width:auto;}
+
+body.pubs_landing table.listing_bottom {width:auto;}
+body.pubs_landing table.listing_bottom td {padding:8px 18px 0 0;}
+body.pubs_landing table.listing_bottom td.listing_bottom_left div.pubs_listing {width:auto;}
+body.pubs_landing table.listing_bottom td.listing_bottom_right div.pubs_listing {width:auto}
+
+body.pubs_listing .mainbody {width:auto;}
+* html body.pubs_listing .mainbody {width:auto;}
+
+body.pubs_listing .pubs_listing table.list td.col1 {width:270px;}
+body.pubs_listing .pubs_listing table.list td.col2 {width:110px;}
+body.pubs_listing .pubs_listing table.list td.col3 {width:110px;}
+body.pubs_listing .pubs_listing table.list td.col4 {width:110px;}
+
+body.pubs_form .mainbody {width:auto;padding-top:0;}
+* html body.pubs_form .mainbody {width:auto;}
+body.pubs_form .mainbody .wrapper {padding:0 0 22px;}
+
+/* FIX TO GET HEADER SEARCH FORMS ALIGNED WITHOUT AFFECTING OTHER SECTIONS*/
+body.pubs_landing .search .fields,
+body.pubs_listing .search .fields {display:none;}
+
+/* Events */
+body.events_landing .mainbody {width:auto;padding-top:0;}
+* html body.events_landing .mainbody {width:auto;}
+body.events_landing .mainbody .wrapper {padding:0 0 22px;}
+
+table.list th {padding:8px18px 8px 0;}
+body.events_landing .featuredevents_listing table.list td.col1 {width:275px;}
+body.events_landing .featuredevents_listing table.list td.col2 {width:125px;}
+body.events_landing .featuredevents_listing table.list td.col3 {width:100px;}
+
+body.events .events_listing table.list td.col1 {width:270px;}
+body.events .events_listing table.list td.col2 {width:110px;}
+body.events .events_listing table.list td.col3 {width:110px;}
+body.events .events_listing table.list td.col4 {width:110px;white-space:normal; *width:110px;}
+* html body.events .events_listing table.list td.col4 a {white-space:normal;}
+
+body.events .eventsseminar_listing table.list td.col1 {width:270px;}
+body.events .eventsseminar_listing table.list td.col2 {width:110px;}
+body.events .eventsseminar_listing table.list td.col3 {width:110px;}
+body.events .eventsseminar_listing table.list td.col4 {width:110px;}
+
+body.events_listing .mainbody {width:auto;}
+* html body.events_listing .mainbody {width:auto;}
+
+body.events_detail .mainbody .register {display:none;}
+
+body.events_form .mainbody {width:auto;}
+* html body.events_form .mainbody {width:auto;}
+
+/* Lawyers */
+body.lawyers_landing .pagetitle .wrapper {padding:0;}
+body.lawyers_landing .pagetitle .alpha {display:none;}
+
+.lawyers_search .fields {display:none;}
+
+body.lawyers_landing .description {height:auto;}
+body.lawyers_landing .description .wrapper {padding:26px 0;}
+
+body.lawyers_listing .pagetitle .searchagain {display:none;}
+
+body.lawyers_listing .mainbody {width:auto;}
+body.lawyers_listing .mainbody .searchresults {padding:0;}
+
+.lawyers_listing table.list td.col1 {width:20%;}
+.lawyers_listing table.list td.col2 {width:20%;}
+.lawyers_listing table.list td.col3 {width:25%;}
+.lawyers_listing table.list td.col4 {width:15%;}
+.lawyers_listing table.list td.col5 {width:15%;}
+.lawyers_listing table.list td.col6 {width:5%;}
+
+body.lawyers_detail .header{margin:0;}
+
+body.lawyers_detail .pagetitle table {height:auto!important;}
+body.lawyers_detail .pagetitle td.title_left {border-right:10px solid #f5f5f5;}
+body.lawyers_detail .pagetitle td.title_left div.image{}
+body.lawyers_detail .pagetitle td.title_left img {}
+body.lawyers_detail .pagetitle td.title_right {padding:0 10px 15px;width:auto;}
+body.lawyers_detail .pagetitle h1{font: bold 20px/25px Arial, Helvetica, sans-serif; font: bold 16px/21px Arial, Helvetica, sans-serif\0/;}
+body.lawyers_detail .pagetitle .areas{font: bold 16px/19px Arial, Helvetica, sans-serif; font: bold 12px/15px Arial, Helvetica, sans-serif\0/;}
+body.lawyers_detail .pagetitle .level{font: normal 17px/25px Arial, Helvetica, sans-serif; font: normal 13px/21px Arial, Helvetica, sans-serif\0/;}
+
+body.lawyers_detail .leftside .email,
+body.lawyers_detail .leftside .linkedin,
+body.lawyers_detail .leftside .vcard,
+body.lawyers_detail .leftside .pdf {display:none;}
+body.lawyers_detail .leftside{width:18%; width:140px\0/;}
+body.lawyers_detail .rightside{width: 29%; width:168px\0/;}
+
+.rightside .share {display:none;}
+
+body.lawyers_detail .rightside .rightside{width: 100%; width:168px\0/;}
+body.lawyers_detail .leftside .office {font: normal 16px/19px Arial, Helvetica, sans-serif; font: normal 12px/15px Arial, Helvetica, sans-serif\0/;}
+
+/* Worldwide */
+body.worldwide_landing .languages ul {margin:0;}
+
+body.worldwide_landing .description {float:none;width:auto;}
+body.worldwide_landing .description .wrapper {padding:26px 0;}
+
+body.worldwide_landing .offices_listing {float:none;width:auto;padding:0;}
+body.worldwide_landing .offices_listing table.list td {padding:3px 18px 3px 0;vertical-align:top;}
+body.worldwide_landing .offices_listing table.list td.col1 {width:152px;}
+body.worldwide_landing .offices_listing table.list td.col2 {width:274px;}
+
+body.worldwide_detail .pagetitle td.title_left {padding-bottom:10px;}
+body.worldwide_detail .mainbody iframe {width:290px !important;}
+
+body.worldwide_detail .leftside{width:18%; width:140px\0/;}
+body.worldwide_detail .rightside{width: 29%; width:168px\0/; position:absolute; right:0;}
+body.worldwide_detail .rightside .rightside{width: 100%; width:168px\0/; position:relative;}
+
+body.areas_detail div.middle .pagetitle td.title_left, body.worldwide_detail div.middle .pagetitle td.title_left{padding:0 30px;}
+
+/* Careers */
+body.careers_landing .description {height:auto;}
+body.careers_landing .description .wrapper {padding:26px 0;}
+body.careers_landing .description .link a {padding:0;}
+body.careers_landing .description .link a:hover {padding:0;}
+
+/* About */
+body.about_landing .description {height:auto;width:auto;}
+body.about_landing .description .wrapper {padding:26px 0;}
+body.about_landing .description .heading {height:auto;}
+
+body.brochures .mainbody {width:auto;padding-top:0;}
+* html body.brochures .mainbody {width:auto;}
+body.brochures .mainbody .wrapper {padding:0 0 22px;}
+
+.brochures_listing table.list td.col1 {width:110px;}
+.brochures_listing table.list td.col2 {width:270px;}
+.brochures_listing table.list td.col3 {width:110px;}
+.brochures_listing table.list td.col4 {width:110px;}
+
+body.rankings_listing .mainbody {width:auto;}
+* html body.rankings_listing .mainbody {width:auto;}
+body.rankings_listing .mainbody .wrapper {padding:0 0 22px;}
+
+body.video .mainbody {width:auto;padding-top:0;}
+* html body.video .mainbody {width:auto;}
+body.video .mainbody .wrapper .video_scroller {display:none;}
+
+/* Areas of Focus */
+body.areas_landing .description {height:auto;position:static;}
+body.areas_landing .description .wrapper {padding:26px 0;}
+
+body.areas_landing .popup_subpractices {display:none !important;}
+
+body.areas_landing table.listall_subpractices {width:auto;height:auto;overflow:visible;}
+body.areas_landing .listall_subpractices td {padding:10px 10px 10px 0;width:50%;}
+body.areas_landing .listall_subpractices td a {padding:0;}
+body.areas_landing .listall_subpractices td a:hover {padding:0;}
+
+body.areas_landing table.list_subpractices {width:auto;overflow:visible;}
+body.areas_landing .list_subpractices td {padding:10px 10px 10px 0;}
+body.areas_landing .list_subpractices td a {padding:0;}
+body.areas_landing .list_subpractices td a:hover {padding:0;}
+
+body.areas_landing .description .subnav table.services_subnav_table {width:auto;}
+body.areas_landing .description .subnav td.services_subnav_col1 {width:45%;}
+body.areas_landing .description .subnav td.services_subnav_col2 {width:45%;}
+
+
+body.areas_detail div.middle div.pagetitle table {height:75px;}
+body.areas_detail div.middle div.pagetitle td.title_left{vertical-align:middle; padding:0 30px;}
+body.areas_detail div.middle div.pagetitle td.title_left h1{color:#000; font-weight:bold;}
+body.areas_detail .leftside {word-wrap:normal;}
+
+
+body.areas_detail .lawyers_listing table.list {margin:0;}
+
+/* Landing Pages */
+body.landing .description .subnav table {width:auto;}
+body.landing .description .subnav td {width:50%;}
+body.landing .description .subnav a {padding:0;}
+body.landing .description .subnav a:hover {padding:0;}
+
+body.landing .highlights table {width:auto;height:auto;}
+body.landing .highlights td {padding:19px 19px 19px 0;}
+body.landing .highlights td.highlight_left {width:auto;}
+body.landing .highlights .link a {padding:0;}
+body.landing .highlights .link a:hover {padding:0;}
+
+body.connectdetail .mainbody {width:auto;}
+body.connectdetail div.connectImage {float:left;width:212px;}
+
+.leftside .phone, .leftside .fax {white-space:nowrap !important;} /* WST-8981 */
+body.detail .pagetitle td.title_left{vertical-align:middle;}
+
+body.casestudy.casestudy_detail.detail .mainbody{width:51%; width:auto\0/;}
+
+/* Home */
+body.home a {color:#333;}
+body.home a:visited {color:#333;}
+
+body.home .middle {height:auto;padding-bottom:20px;}
+
+body.home .middle .description {height:auto;}
+body.home .middle .description .wrapper {padding:25px 0 37px;}
+body.home .middle .description .subheading {font-size:20px;}
+body.home .middle .description .link a {padding:0;}
+body.home .middle .description .link a:hover {padding:0;}
+
+body.home .middle .highlights table {width:auto;}
+body.home .middle .highlights td.highlight_left {padding:0 10px 0 0;}
+body.home .middle .highlights td.highlight_center {padding:0 10px 0 0;}
+body.home .middle .highlights td.highlight_right {padding:0;}
+body.home .middle .highlights .title {color:#333;}
+body.home .middle .highlights .link {color:#333;}
+body.home .middle .highlights .link a {padding:0;}
+body.home .middle .highlights .link a:hover {padding:0;}
+
+.footer_anchor {padding-bottom:0;}
+
+.MENUsubnav {display:none;}
+
+div.locationMSG {color:#333;width:auto;margin-left:0;}
+
+body.connectpage div.mainbody {width:auto;}

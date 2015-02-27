@@ -9,6 +9,7 @@ a{text-decoration:none;}
    */
    .header{overflow:hidden; height:97px;  background:url(/FCWSite/Img/newhp/bg_head.gif) no-repeat 0 97px;}
    .header .logo{float:left; margin:20px 30px 15px 0;}
+   .header .logo2{float:right; margin:20px 0 15px 0;}
    .header .nav{float:right;}
    .header .nav ul{overflow:hidden; margin:0; padding:0; list-style:none;}
    .header .nav ul li{float:left; margin-left:20px;}
